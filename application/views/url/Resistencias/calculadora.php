@@ -21,7 +21,7 @@
 			<div class="col-lg-4">
 				<div class="row">
 					<label>Banda 1</label>
-					<select class="form-control" name="cbBanda1">
+					<select class="form-control cbBanda" name="cbBanda1">
 					<?php
 						echo $options;
 					?>
@@ -29,7 +29,7 @@
 				</div>		
 				<div class="row">
 					<label>Banda 2</label>
-					<select class="form-control" name="cbBanda2">	
+					<select class="form-control cbBanda" name="cbBanda2">	
 						<?php
 							echo $options;
 						?>	
@@ -38,7 +38,7 @@
 				</div>		
 				<div class="row">
 					<label>Banda 3</label>
-					<select class="form-control" name="cbBanda3">	
+					<select class="form-control cbBanda" name="cbBanda3">	
 						<?php
 							echo $options;
 						?>	
@@ -46,7 +46,7 @@
 				</div>		
 				<div class="row">
 					<label>Banda 4</label>
-					<select class="form-control" name="cbBanda4">	
+					<select class="form-control cbBanda" name="cbBanda4">	
 						<?php
 							echo $options;
 						?>	

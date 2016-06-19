@@ -10,11 +10,6 @@
 </head>
 <body>
 	<h2> Herramientas RITSA </h2>
-	<!-- <pre>
-		<?php 
-			print_r($categorias);
-		?>
-	</pre> -->
 	<?php 
 		foreach ($categorias as $key => $padre) {
 	?>

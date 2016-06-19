@@ -1,9 +1,19 @@
 <?php 
-class ClassName extends AnotherClass
+class CategoriaModel extends CI_Model
 {
 	
 	function __construct()
 	{
-		# code...
+		parent::__construct();
 	}
+	// funciones
+		function getEnlaces($idCategoria){
+			$sql = "SELECT * 
+					from enlaces
+					where id_categoria_fk = ".$idCategoria."";
+			$this->db->trans_start();
+				$query = $this->db->query($sql);
+			$this->db->trans_complete();
+			return $query->result();
+		}
 }

@@ -24,11 +24,10 @@
 						<?php echo $enlace->descripcion ?>
 					</div>
 					<div class='col-lg-4'>
-						<a href=<?php echo $enlace->enlace ?> >
+						<a target='blank' href=<?php echo $enlace->enlace ?> >
 							descargar
 						</a>				
 					</div>
-				
 			</div>
 		<?php 
 			}

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("content/css/paginas/welcome/media.css") ?> >
 </head>
 <body>
-	<h2> Herramientas RITSA </h2>
+	<h2 class=""> Herramientas RITSA </h2>
 	<?php 
 		foreach ($categorias as $key => $padre) {
 	?>
